@@ -1,0 +1,102 @@
+/*[Fonts]*/
+
+@font-face {
+  font-family: Gotham-Book;
+  src: url('../fonts/Gotham/Gotham-Book.otf'); 
+}
+
+@font-face {
+  font-family: Gotham-Bold;
+  src: url('../fonts/Gotham/Gotham-Bold.otf'); 
+}
+
+@font-face {
+  font-family: Gotham-Light;
+  src: url('../fonts/Gotham/Gotham-Light.otf'); 
+}
+
+/*[Restyle Tag]*/
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Gotham-Book;
+}
+
+/*[Login Box]*/
+.container {
+	width: 100%;  
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.wrap-login {
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 600px;
+	display: block;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 0 auto;
+	background-image: url('../images/wrap-01.jpg');
+	/* [Background Image Attribution] 
+	Background Image Designed by Freepik: http://www.freepik.com 
+	*/
+}
+
+.login-form {
+	width: 100%;
+	margin: 0 auto;
+	padding: 4rem;
+}
+
+img.logo {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 35px;
+	display: block;
+}
+.image-container {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/*[Input]*/
+.form-wrap {
+  margin-bottom: 1rem;
+}
+
+.form-input {
+	background: #fafafa;
+    border: 1px solid #eeeeee;
+    padding: 12px;
+    width: 100%;
+}
+
+.form-footer{
+     text-align: center;
+	 font-size: 12px;
+}
+
+.form-button{
+    background: #69d2e7;
+    border: 1px solid #ddd;
+    color: #ffffff;
+	padding: 10px;
+    width: 100%;
+    text-transform: uppercase;
+	border-radius: 10px;
+}
